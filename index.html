@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Domine o Pacote Office - Word, Excel e PowerPoint</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css?v=1.0.4">
+
+    <!-- Meta Pixel Code (Active) -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '4679462335634236');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=4679462335634236&ev=PageView&noscript=1" /></noscript>
+    <!-- End Meta Pixel Code (Active) -->
+
+    <!-- Utmify -->
+    <script src="https://cdn.utmify.com.br/scripts/utms/latest.js" data-utmify-prevent-xcod-sck
+        data-utmify-prevent-subids async defer></script>
+
+    <!-- Utmify Pixel -->
+    <script>
+        window.pixelId = "6a2790acdd8eb35c4a741450";
+        var a = document.createElement("script");
+        a.setAttribute("async", "");
+        a.setAttribute("defer", "");
+        a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+        document.head.appendChild(a);
+    </script>
+
+    <!-- Popup Control Helper -->
+    <script>
+        window.showUpsellPopup = function (e) {
+            if (e) e.preventDefault();
+            console.log("showUpsellPopup called inline.");
+            var popup = document.getElementById('upsell-popup');
+            if (popup) {
+                popup.style.display = 'flex';
+            } else {
+                console.error("upsell-popup element not found!");
+            }
+        };
+        window.closeUpsellPopup = function (e) {
+            console.log("closeUpsellPopup called inline.");
+            var popup = document.getElementById('upsell-popup');
+            if (popup) {
+                if (e && e.target && e.target !== popup) {
+                    return;
+                }
+                popup.style.display = 'none';
+            }
+        };
+    </script>
+</head>
+
+<body>
+
+    <!-- Header Top Bar -->
+    <div class="top-bar">
+        <p>⚡ OFERTA ESPECIAL DISPONÍVEL APENAS HOJE</p>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="home">
+        <div class="container">
+            <div class="security-badge">
+                <i class="fa-solid fa-lock"></i> COMPRA 100% SEGURA E PROTEGIDA
+            </div>
+
+            <h1 class="hero-title">
+                Sua jornada para dominar o Pacote Office começou! Com este <span class="text-gold">curso prático e app exclusivo
+                </span> você vai decolar na sua carreira!
+            </h1>
+
+            <div class="hero-content">
+                <img src="img/mockup-headline-semfundo.png" alt="Kit Curso Office" class="hero-image">
+
+                <div class="hero-text-content">
+                    <p class="hero-subtitle">Pare de perder horas tentando montar planilhas e apresentações que não impressionam.
+                        Tenha na palma da mão um App que gera fórmulas perfeitas na hora e te ensina o passo a passo para dominar Word, Excel e PowerPoint.</p>
+
+                    <a href="#oferta" class="cta-button pulse-animation">
+                        QUERO ACESSAR O MATERIAL AGORA
+                    </a>
+
+                    <div class="hero-delivery-info">
+                        <h2>Acesso imediato no seu <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png"
+                                alt="WhatsApp"> WhatsApp e no seu <img
+                                src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email"> e-mail</h2>
+                    </div>
+
+                    <div class="hero-social-proof">
+                        <div class="avatar-group">
+                            <img src="https://mentoriaoprocesso.com/wp-content/uploads/2026/01/Group-482213-1.png"
+                                alt="Alunos">
+                        </div>
+                        <h2>MAIS DE 1.000 ALUNOS APROVAM!</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Proof / Feedback Section -->
+    <section class="social-proof-section" id="prova-social">
+        <div class="container">
+            <h2 class="social-proof-title">
+                ELES TESTARAM <span class="text-gold">E FUNCIONOU DE VERDADE</span>
+            </h2>
+            <p class="social-proof-subtitle">Veja o que mais de 1.000 alunos especializados já comprovaram.</p>
+        </div>
+
+        <div class="social-proof-carousel-container">
+            <div class="social-proof-carousel-track social-proof-scroll">
+                <!-- Set 1 -->
+                <div class="social-proof-frame"><img src="img/prova_social_rafael.png" alt="Feedback Rafael"></div>
+                <div class="social-proof-frame"><img src="img/prova_social_suelen.png" alt="Feedback Suelen"></div>
+                <div class="social-proof-frame"><img src="img/prova_social_maria.png" alt="Feedback Maria"></div>
+
+                <!-- Set 2 -->
+                <div class="social-proof-frame"><img src="img/prova_social_rafael.png" alt="Feedback Rafael"></div>
+                <div class="social-proof-frame"><img src="img/prova_social_suelen.png" alt="Feedback Suelen"></div>
+                <div class="social-proof-frame"><img src="img/prova_social_maria.png" alt="Feedback Maria"></div>
+
+                <!-- Set 3 -->
+                <div class="social-proof-frame"><img src="img/prova_social_rafael.png" alt="Feedback Rafael"></div>
+                <div class="social-proof-frame"><img src="img/prova_social_suelen.png" alt="Feedback Suelen"></div>
+                <div class="social-proof-frame"><img src="img/prova_social_maria.png" alt="Feedback Maria"></div>
+
+                <!-- Set 4 (duplicated for seamless loop) -->
+                <div class="social-proof-frame"><img src="img/prova_social_rafael.png" alt="Feedback Rafael"></div>
+                <div class="social-proof-frame"><img src="img/prova_social_suelen.png" alt="Feedback Suelen"></div>
+                <div class="social-proof-frame"><img src="img/prova_social_maria.png" alt="Feedback Maria"></div>
+
+                <!-- Set 5 (duplicated for seamless loop) -->
+                <div class="social-proof-frame"><img src="img/prova_social_rafael.png" alt="Feedback Rafael"></div>
+                <div class="social-proof-frame"><img src="img/prova_social_suelen.png" alt="Feedback Suelen"></div>
+                <div class="social-proof-frame"><img src="img/prova_social_maria.png" alt="Feedback Maria"></div>
+
+                <!-- Set 6 (duplicated for seamless loop) -->
+                <div class="social-proof-frame"><img src="img/prova_social_rafael.png" alt="Feedback Rafael"></div>
+                <div class="social-proof-frame"><img src="img/prova_social_suelen.png" alt="Feedback Suelen"></div>
+                <div class="social-proof-frame"><img src="img/prova_social_maria.png" alt="Feedback Maria"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Visual Proof / Carousel Section -->
+    <section class="visual-proof-section">
+        <div class="container">
+            <h2 class="section-title text-center text-dark">O material definitivo para o seu sucesso profissional</h2>
+
+        </div> <!-- Fecha o container do titulo -->
+
+        <!-- O carrossel fica de fora do container para ocupar a tela toda (Full Width) -->
+        <div class="carousel-container">
+            <div class="carousel-track infinite-scroll">
+                <!-- Set 1: Phone frames with App Images -->
+                <div class="phone-frame"><img src="img/app.png" alt="App Tela 1"></div>
+                <div class="phone-frame"><img src="img/app2.png" alt="App Tela 2"></div>
+                <div class="phone-frame"><img src="img/app3.png" alt="App Tela 3"></div>
+                <div class="phone-frame"><img src="img/app4.png" alt="App Tela 4"></div>
+                <div class="phone-frame"><img src="img/app5.png" alt="App Tela 5"></div>
+                <div class="phone-frame"><img src="img/app6.png" alt="App Tela 6"></div>
+                <div class="phone-frame"><img src="img/app7.png" alt="App Tela 7"></div>
+                <div class="phone-frame"><img src="img/app8.png" alt="App Tela 8"></div>
+                <div class="phone-frame"><img src="img/app9.png" alt="App Tela 9"></div>
+
+                <!-- Set 2 (Duplicated for seamless infinite scroll) -->
+                <div class="phone-frame"><img src="img/app.png" alt="App Tela 1"></div>
+                <div class="phone-frame"><img src="img/app2.png" alt="App Tela 2"></div>
+                <div class="phone-frame"><img src="img/app3.png" alt="App Tela 3"></div>
+                <div class="phone-frame"><img src="img/app4.png" alt="App Tela 4"></div>
+                <div class="phone-frame"><img src="img/app5.png" alt="App Tela 5"></div>
+                <div class="phone-frame"><img src="img/app6.png" alt="App Tela 6"></div>
+                <div class="phone-frame"><img src="img/app7.png" alt="App Tela 7"></div>
+                <div class="phone-frame"><img src="img/app8.png" alt="App Tela 8"></div>
+                <div class="phone-frame"><img src="img/app9.png" alt="App Tela 9"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section">
+        <div class="container">
+            <h2 class="section-title text-center">Tudo para uma <span class="text-gold">carreira de sucesso</span></h2>
+
+            <div class="features-grid">
+                <div class="feature-item">
+                    <i class="fa-solid fa-file-excel feature-icon"></i>
+                    <h3>Excel Descomplicado</h3>
+                    <p>Fórmulas, tabelas dinâmicas e dashboards para otimizar sua rotina em minutos.</p>
+                </div>
+
+                <div class="feature-item">
+                    <i class="fa-solid fa-file-powerpoint feature-icon"></i>
+                    <h3>Apresentações de Impacto</h3>
+                    <p>Templates e técnicas no PowerPoint para encantar seu chefe e seus clientes.</p>
+                </div>
+
+                <div class="feature-item">
+                    <i class="fa-solid fa-file-word feature-icon"></i>
+                    <h3>Documentos Profissionais</h3>
+                    <p>Formatação ABNT, relatórios e currículos impecáveis usando o Word.</p>
+                </div>
+
+                <div class="feature-item">
+                    <i class="fa-solid fa-clock feature-icon"></i>
+                    <h3>Produtividade Extrema</h3>
+                    <p>Atalhos e automações para você trabalhar menos e produzir o dobro.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Included Section / O que você vai receber -->
+    <section class="included-section" id="oque-receber">
+        <div class="container">
+            <h2 class="section-title text-center text-white">O que você vai <span class="text-gold">receber</span></h2>
+            <div class="divider"></div>
+
+            <!-- Grid containing both Book/PDF and Web App stacked cleanly -->
+            <div class="received-grid">
+                <!-- Card 1: Livro Digital -->
+                <div class="received-item">
+                    <div class="received-media">
+                        <div class="book-slider-wrapper">
+                            <div class="app-video-container-received">
+                                <div class="app-video-frame-received book-mockup-frame">
+                                    <!-- PDF Header Simulation -->
+                                    <div class="pdf-mockup-header">
+                                        <div class="pdf-mockup-header-left">
+                                            <i class="fa-solid fa-chevron-left"></i>
+                                            <span>Guia_Office.pdf</span>
+                                        </div>
+                                        <div class="pdf-mockup-header-right">
+                                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                                        </div>
+                                    </div>
+
+                                    <div class="book-slides-container">
+                                        <div class="book-slide active">
+                                            <img src="img/info1.png" alt="Página 1" class="app-video-inner-received">
+                                        </div>
+                                        <div class="book-slide">
+                                            <img src="img/info2.png" alt="Página 2" class="app-video-inner-received">
+                                        </div>
+                                        <div class="book-slide">
+                                            <img src="img/info3.png" alt="Página 3" class="app-video-inner-received">
+                                        </div>
+                                        <div class="book-slide">
+                                            <img src="img/info4.png" alt="Página 4" class="app-video-inner-received">
+                                        </div>
+                                        <div class="book-slide">
+                                            <img src="img/info5.png" alt="Página 5" class="app-video-inner-received">
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="received-details">
+                        <span class="received-badge text-gold">📖 MATERIAL COMPLETO (PDF)</span>
+                        <h3>Guias e Apostilas em PDF</h3>
+                        <p class="received-desc">Tenha acesso a um acervo completo de atalhos e funções práticas para
+                            engajar na sua produtividade diária.</p>
+                        <ul class="check-list-received">
+                            <li><i class="fa-solid fa-check text-green"></i> 100 Funções essenciais do Excel</li>
+                            <li><i class="fa-solid fa-check text-green"></i> Passo a passo detalhado de formatação de relatórios</li>
+                            <li><i class="fa-solid fa-check text-green"></i> Guia definitivo de atalhos (Windows e Office)</li>
+                            <li><i class="fa-solid fa-check text-green"></i> Modelos de documentos para o dia a dia corporativo</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Card 2: Web App Exclusivo -->
+                <div class="received-item">
+                    <div class="received-media">
+                        <div class="app-video-container-received">
+                            <div class="app-video-frame-received">
+                                <video src="img/app-demonstracao-crisma.mp4" autoplay loop muted playsinline
+                                    class="app-video-inner-received"></video>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="received-details">
+                        <span class="received-badge text-gold">🚀 EXCLUSIVO NO PLANO PRO</span>
+                        <h3>Seu Assistente Inteligente de Office</h3>
+                        <p class="received-desc">Nosso <strong>Aplicativo Web Exclusivo com IA</strong> para auxiliar você em qualquer tarefa do pacote Office.</p>
+                        <ul class="check-list-received">
+                            <li><i class="fa-solid fa-check text-green"></i> Gerador de fórmulas de Excel com IA
+                            </li>
+                            <li><i class="fa-solid fa-check text-green"></i> Busca rápida de atalhos e funções</li>
+                            <li><i class="fa-solid fa-check text-green"></i> Criação de esboços de apresentações e textos</li>
+                            <li><i class="fa-solid fa-check text-green"></i> Acesso rápido pelo celular ou computador
+                                sem ocupar espaço</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="scarcity-box">
+                <p>Essa oferta está disponível para os <span>próximos 7 alunos.</span> Depois disso, o preço será
+                    reajustado.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bonus Section -->
+    <section class="bonus-section">
+        <div class="container text-center">
+            <h2>E não para por aí...</h2>
+            <p>Leve também esses materiais práticos incríveis!</p>
+
+            <h2 class="bonus-highlight">🎁 5 BÔNUS EXCLUSIVOS</h2>
+
+            <div class="bonus-grid">
+                <!-- Bonus 1 -->
+                <div class="bonus-card">
+                    <div class="bonus-tag">BÔNUS 1</div>
+                    <img src="img/bonus1-novo.webp" alt="50 Planilhas Prontas">
+                    <h3>50 Modelos de Planilhas Prontas</h3>
+                    <p class="bonus-desc">Pacote com planilhas de controle financeiro, estoque, RH e orçamentos prontas para uso.</p>
+                    <div class="bonus-price">Valor: <span class="strikethrough">R$27</span> <span
+                            class="free">GRÁTIS</span></div>
+                </div>
+
+                <!-- Bonus 2 -->
+                <div class="bonus-card">
+                    <div class="bonus-tag">BÔNUS 2</div>
+                    <img src="img/bonus2-novo.webp" alt="Templates PowerPoint">
+                    <h3>50 Templates de Apresentações Profissionais</h3>
+                    <p class="bonus-desc">Designs modernos de PowerPoint (PPT) para encantar seus clientes e chefes.</p>
+                    <div class="bonus-price">Valor: <span class="strikethrough">R$37</span> <span
+                            class="free">GRÁTIS</span></div>
+                </div>
+
+                <!-- Bonus 3 -->
+                <div class="bonus-card">
+                    <div class="bonus-tag">BÔNUS 3</div>
+                    <img src="img/bonus3-novo.webp" alt="Guia de Atalhos">
+                    <h3>Guia Definitivo de Atalhos</h3>
+                    <p class="bonus-desc">O segredo dos profissionais: todos os atalhos do Windows e Pacote Office para voar no teclado.</p>
+                    <div class="bonus-price">Valor: <span class="strikethrough">R$47</span> <span
+                            class="free">GRÁTIS</span></div>
+                </div>
+
+                <!-- Bonus 4 -->
+                <div class="bonus-card">
+                    <div class="bonus-tag">BÔNUS 4</div>
+                    <img src="img/bonus4-novo.webp" alt="Curso Inteligência Artificial">
+                    <h3>Curso Básico: IA para Produtividade</h3>
+                    <p class="bonus-desc">Como usar Inteligência Artificial (ChatGPT e afins) para criar planilhas e textos em segundos.</p>
+                    <div class="bonus-price">Valor: <span class="strikethrough">R$27</span> <span
+                            class="free">GRÁTIS</span></div>
+                </div>
+
+                <!-- Bonus 5 -->
+                <div class="bonus-card">
+                    <div class="bonus-tag">BÔNUS 5</div>
+                    <img src="img/bonus5-novo.webp" alt="Modelos de Currículos">
+                    <h3>Modelos de Currículos Vencedores</h3>
+                    <p class="bonus-desc">Templates focados em conversão e cartas de apresentação para você conseguir a vaga dos sonhos.</p>
+                    <div class="bonus-price">Valor: <span class="strikethrough">R$17</span> <span
+                            class="free">GRÁTIS</span></div>
+                </div>
+            </div>
+
+            <div class="urgency-banner mt-5 text-center">
+                <a href="https://pay.wiapy.com/HW6pkTdIpb_" class="cta-button pulse-animation">
+                    QUERO MEUS BÔNUS E O APLICATIVO
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing-section" id="oferta">
+        <div class="container">
+            <h2 class="section-title text-center text-dark">Escolha o Melhor <span class="text-gold">Plano para
+                    Você!</span></h2>
+            <div class="divider"></div>
+
+            <div class="pricing-cards">
+                <!-- Basic Plan -->
+                <div class="pricing-card basic-plan">
+                    <h3 class="plan-name">Plano Básico</h3>
+                    <img src="img/crisma-fudo-branco.png" alt="Plano Básico">
+
+                    <ul class="plan-features">
+                        <li><i class="fa-solid fa-check text-green"></i> Guia Completo em PDF</li>
+                        <li><i class="fa-solid fa-xmark" style="color: #EF4444;"></i> Sem os 5 Bônus Exclusivos</li>
+                        <li><i class="fa-solid fa-xmark" style="color: #EF4444;"></i> Sem acesso ao Web App</li>
+                        <li><i class="fa-solid fa-xmark" style="color: #EF4444;"></i> Sem Assistente com IA</li>
+                    </ul>
+
+                    <div class="price-box">
+                        <p class="old-price">de R$39,90 por:</p>
+                        <h4 class="current-price">R$19,90</h4>
+                        <p class="installments">no PIX ou Cartão</p>
+                    </div>
+
+                    <a href="#" id="btn-basic-plan" class="cta-button secondary-btn"
+                        onclick="window.showUpsellPopup(event)">
+                        COMPRAR PLANO BÁSICO
+                    </a>
+                </div>
+
+                <!-- Pro Plan -->
+                <div class="pricing-card pro-plan">
+                    <div class="most-popular-tag">
+                        <i class="fas fa-star pulse-icon"></i> MAIS VENDIDO
+                    </div>
+                    <div class="urgency-tag">⏰ ÚLTIMA CHANCE — OFERTA TERMINA HOJE</div>
+
+                    <h3 class="plan-name">Plano Informática PRO 💻</h3>
+                    <img src="img/banner_bundle_bonus.png" alt="Plano Pro">
+
+                    <div class="double-content">O PACOTE MAIS COMPLETO</div>
+
+                    <ul class="plan-features">
+                        <li><i class="fa-solid fa-check text-green"></i> Todos os Manuais de Word, Excel e PPT</li>
+                        <li><i class="fa-solid fa-mobile-screen text-gold"></i> <b>Acesso ao Aplicativo Web Exclusivo</b></li>
+                        <li><i class="fa-solid fa-wand-magic-sparkles text-gold"></i> <b>Assistente de Produtividade com IA</b></li>
+                        <li><i class="fa-solid fa-gift text-gold"></i> <b>Bônus 1</b> 50 Modelos de Planilhas Prontas</li>
+                        <li><i class="fa-solid fa-gift text-gold"></i> <b>Bônus 2</b> 50 Templates PPT</li>
+                        <li><i class="fa-solid fa-gift text-gold"></i> <b>Bônus 3</b> Guia Definitivo de Atalhos</li>
+                        <li><i class="fa-solid fa-gift text-gold"></i> <b>Bônus 4</b> Curso: IA para Produtividade</li>
+                        <li><i class="fa-solid fa-gift text-gold"></i> <b>Bônus 5</b> Modelos de Currículos Vencedores</li>
+                    </ul>
+
+                    <div class="price-box highlight-price">
+                        <p class="old-price">de R$97,90 por:</p>
+                        <h4 class="current-price">R$37,90</h4>
+                        <p class="installments">ou 5x de R$8,26 no cartão</p>
+                        <div class="savings">Melhor Custo x Benefício</div>
+                    </div>
+
+                    <a href="https://pay.wiapy.com/HW6pkTdIpb_" class="cta-button pulse-animation">
+                        QUERO O PLANO PRO COM APLICATIVO
+                    </a>
+                </div>
+            </div>
+
+            <!-- <div class="payment-methods text-center mt-5">
+                <img src="https://mentoriaoprocesso.com/wp-content/uploads/2025/10/icons-meio-de-pagamento-e1738718378460-2-1.png" alt="Meios de Pagamento" style="margin: 0 auto; width: 300px;">
+            </div> -->
+        </div>
+    </section>
+
+    <!-- Guarantee Section -->
+    <section class="guarantee-section">
+        <div class="container text-center">
+            <img src="https://mentoriaoprocesso.com/wp-content/uploads/2026/01/Selo-7dias.jpg" alt="Garantia de 7 Dias"
+                class="guarantee-badge">
+            <h2 class="section-title text-white">Garantia de 7 dias</h2>
+            <p class="guarantee-text">Você tem 7 dias para testar todo o material e o aplicativo. Se por algum motivo
+                perceber que o curso não ajuda no seu dia a dia profissional, nós devolvemos integralmente o seu investimento, sem
+                questionamentos.</p>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section" id="faq">
+        <div class="container">
+            <h2 class="section-title text-center text-dark">Perguntas Frequentes</h2>
+
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Como recebo o acesso ao material e ao aplicativo?
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Logo após a confirmação do pagamento, você receberá um e-mail com seus dados de acesso (login
+                            e senha) e o link para acessar tanto o material em PDF quanto o Aplicativo Web exclusivo,
+                            além de uma mensagem no seu WhatsApp com as instruções.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Por quanto tempo tenho acesso?
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>O seu acesso ao material completo, aos bônus e ao aplicativo (no Plano PRO) é
+                            <strong>vitalício</strong>. Ou seja, você paga uma única vez e pode usar para sempre,
+                            incluindo todas as futuras atualizações que fizermos no material e no aplicativo.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        O aplicativo precisa ser instalado no celular?
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Não! Nosso aplicativo é no formato Web App. Isso significa que ele não ocupa espaço na
+                            memória do seu celular e você não precisa baixar nada nas lojas de aplicativos. Você o
+                            acessa pelo navegador do seu celular ou computador com muita facilidade e rapidez.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        O material serve para qual versão do Office?
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>O material foi desenvolvido focando nas versões mais recentes (Office 365, 2019, 2021), mas a grande maioria dos atalhos e fórmulas de Excel ensinadas funcionam perfeitamente em versões mais antigas também.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        E se eu não gostar do conteúdo?
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Temos total confiança na qualidade do que entregamos. Se você acessar o material e achar que
+                            ele não atende as suas expectativas, você tem até 7 dias para pedir o
+                            reembolso e devolveremos 100% do seu dinheiro, sem burocracia.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <h3 class="footer-logo">Informática PRO</h3>
+                    <p>Transformando a maneira como você trabalha através de treinamentos práticos de produtividade e ferramentas de IA.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Links Úteis</h4>
+                    <ul>
+                        <li><a href="#home">Início</a></li>
+                        <li><a href="#oferta">Planos e Preços</a></li>
+                        <li><a href="#faq">Dúvidas Frequentes</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-contact">
+                    <h4>Contato e Suporte</h4>
+                    <p><i class="fa-regular fa-envelope"></i> contato@informaticapro.com</p>
+                    <p><i class="fa-solid fa-shield-halved"></i> Compra 100% Segura</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Informática PRO. Todos os direitos reservados.</p>
+                <div class="footer-legal">
+                    <a href="#">Termos de Uso</a>
+                    <a href="#">Políticas de Privacidade</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Upsell Popup Overlay -->
+    <div id="upsell-popup" class="popup-overlay" onclick="window.closeUpsellPopup(event)">
+        <div class="popup-content">
+            <div class="popup-header-tag">OFERTA ÚNICA E EXCLUSIVA</div>
+
+            <h2 class="popup-title">ESPERA! NÃO VÁ AINDA...</h2>
+
+            <p class="popup-subtitle">Por que levar apenas o básico se você pode ter o <strong>Plano Informática
+                    PRO</strong> por uma diferença mínima?</p>
+
+            <div class="popup-price-box">
+                <p class="popup-old-price strikethrough">De R$ 37,90</p>
+                <h3 class="popup-new-price">POR R$ 24,90</h3>
+                <p class="popup-price-note">APENAS NESTA PÁGINA!</p>
+            </div>
+
+            <a href="https://pay.wiapy.com/oNw6kC3bHZN" id="btn-upsell-accept"
+                class="cta-button popup-btn-accept pulse-animation">
+                SIM! QUERO O PREMIUM COM DESCONTO
+            </a>
+
+            <a href="https://pay.wiapy.com/yJpiZvRd2Vf" id="btn-upsell-decline" class="popup-btn-decline">
+                NÃO, QUERO APENAS O PLANO BÁSICO POR R$ 19,90
+            </a>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/scripts.js?v=1.0.4"></script>
+</body>
+
+</html>
