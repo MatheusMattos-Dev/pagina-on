@@ -7,8 +7,8 @@
     --text-dark: #1E293B;
     --text-gray: #64748B;
 
-    --primary-gold: #4F46E5; /* indigo-600 */
-    --primary-gold-hover: #4338CA; /* indigo-700 */
+    --primary-gold: #3B82F6; /* indigo-600 */
+    --primary-gold-hover: #2563EB; /* indigo-700 */
 
     --primary-royal: #1E3A8A; /* blue-900 */
     --light-blue: #F0F4F8;
@@ -23,7 +23,7 @@
     --shadow-sm: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
     --shadow-md: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
     --shadow-lg: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-    --shadow-glow: 0 0 20px rgba(245, 158, 11, 0.4);
+    --shadow-glow: 0 0 20px rgba(59, 130, 246, );
     --glass-bg: rgba(255, 255, 255, 0.03);
     --glass-border: rgba(255, 255, 255, 0.08);
 }
@@ -299,7 +299,7 @@ img {
     left: 0;
     right: 0;
     height: 1px;
-    background: linear-gradient(90deg, transparent, rgba(212, 175, 55, 0.3), transparent);
+    background: linear-gradient(90deg, transparent, rgba(59, 130, 246, ), transparent);
 }
 
 .social-proof-section::after {
@@ -309,7 +309,7 @@ img {
     left: 0;
     right: 0;
     height: 1px;
-    background: linear-gradient(90deg, transparent, rgba(212, 175, 55, 0.3), transparent);
+    background: linear-gradient(90deg, transparent, rgba(59, 130, 246, ), transparent);
 }
 
 .social-proof-title {
@@ -394,11 +394,11 @@ img {
 
 /* Visual Proof Section */
 .visual-proof-section {
-    background: rgb(255, 251, 235);
+    background: #DBEAFE;
     border-width: 1px 0;
     /* Aplicando borda em cima e embaixo, ou apenas 1px generalizado */
     border-style: solid;
-    border-color: rgba(245, 158, 11, 0.3);
+    border-color: rgba(59, 130, 246, );
     border-image: initial;
     padding: 100px 0;
 }
@@ -558,7 +558,7 @@ img {
 
 .app-badge {
     display: inline-block;
-    background: rgba(212, 175, 55, 0.15);
+    background: rgba(59, 130, 246, );
     color: var(--primary-gold);
     padding: 8px 16px;
     border-radius: 100px;
@@ -566,7 +566,7 @@ img {
     font-size: 14px;
     letter-spacing: 1px;
     margin-bottom: 20px;
-    border: 1px solid rgba(212, 175, 55, 0.3);
+    border: 1px solid rgba(59, 130, 246, );
 }
 
 .app-description {
@@ -706,8 +706,8 @@ img {
     text-align: center;
     margin: 50px auto 0;
     padding: 25px;
-    background: rgba(245, 158, 11, 0.05);
-    border: 1px solid rgba(245, 158, 11, 0.2);
+    background: rgba(59, 130, 246, );
+    border: 1px solid rgba(59, 130, 246, );
     border-radius: 16px;
     max-width: 600px;
 }
@@ -861,14 +861,14 @@ img {
 
 .received-badge {
     display: inline-block;
-    background: rgba(212, 175, 55, 0.12);
+    background: rgba(59, 130, 246, );
     padding: 8px 18px;
     border-radius: 100px;
     font-weight: 700;
     font-size: 13px;
     letter-spacing: 0.5px;
     margin-bottom: 16px;
-    border: 1px solid rgba(212, 175, 55, 0.25);
+    border: 1px solid rgba(59, 130, 246, );
 }
 
 .received-details h3 {
@@ -1010,7 +1010,7 @@ img {
 .bonus-card:hover {
     transform: translateY(-8px);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-    border-color: rgba(245, 158, 11, 0.3);
+    border-color: rgba(59, 130, 246, );
 }
 
 .bonus-tag {
@@ -1026,7 +1026,7 @@ img {
     font-weight: 800;
     font-size: 11px;
     letter-spacing: 1px;
-    box-shadow: 0 4px 10px rgba(212, 175, 55, 0.3);
+    box-shadow: 0 4px 10px rgba(59, 130, 246, );
     white-space: nowrap;
 }
 
@@ -1117,7 +1117,7 @@ img {
     border: 2px solid var(--primary-gold);
     background: #FFFFFF;
     z-index: 2;
-    box-shadow: 0 20px 40px rgba(212, 175, 55, 0.15);
+    box-shadow: 0 20px 40px rgba(59, 130, 246, );
 }
 
 .pro-plan:hover {
@@ -1130,7 +1130,7 @@ img {
     left: 50%;
     transform: translateX(-50%);
     background: var(--primary-gold);
-    color: #451A03;
+    color: #FFFFFF;
     padding: 8px 24px;
     border-radius: 100px;
     font-weight: 800;
@@ -1138,12 +1138,12 @@ img {
     align-items: center;
     gap: 8px;
     font-size: 14px;
-    box-shadow: 0 4px 10px rgba(245, 158, 11, 0.3);
+    box-shadow: 0 4px 10px rgba(59, 130, 246, );
 }
 
 .urgency-tag {
-    background: #FEF3C7;
-    color: #B45309;
+    background: #DBEAFE;
+    color: var(--primary-royal);
     text-align: center;
     padding: 10px;
     border-radius: 12px;
@@ -1151,7 +1151,7 @@ img {
     font-size: 13px;
     margin-bottom: 25px;
     margin-top: 15px;
-    border: 1px dashed rgba(245, 158, 11, 0.3);
+    border: 1px dashed rgba(59, 130, 246, );
 }
 
 .plan-name {
@@ -1221,8 +1221,8 @@ img {
 }
 
 .highlight-price {
-    background: #FFFBEB;
-    border: 1px solid rgba(245, 158, 11, 0.3);
+    background: #EFF6FF;
+    border: 1px solid rgba(59, 130, 246, );
 }
 
 .old-price {
@@ -1246,8 +1246,8 @@ img {
 }
 
 .savings {
-    background: #FEF3C7;
-    color: #B45309;
+    background: #DBEAFE;
+    color: var(--primary-royal);
     padding: 6px 16px;
     border-radius: 100px;
     display: inline-block;
@@ -1747,7 +1747,7 @@ img {
 .popup-content {
     margin: auto;
     background: #0B1B36;
-    border: 1px solid rgba(212, 175, 55, 0.3);
+    border: 1px solid rgba(59, 130, 246, );
     border-radius: 24px;
     padding: 40px 30px;
     max-width: 500px;
@@ -1755,7 +1755,7 @@ img {
     text-align: center;
     color: var(--text-white);
     position: relative;
-    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5), 0 0 40px rgba(212, 175, 55, 0.15);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5), 0 0 40px rgba(59, 130, 246, );
 }
 
 .popup-header-tag {
@@ -1768,7 +1768,7 @@ img {
     font-size: 13px;
     letter-spacing: 1px;
     margin-bottom: 25px;
-    box-shadow: 0 4px 10px rgba(212, 175, 55, 0.3);
+    box-shadow: 0 4px 10px rgba(59, 130, 246, );
 }
 
 .popup-title {
